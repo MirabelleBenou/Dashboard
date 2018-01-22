@@ -1,0 +1,49 @@
+/* rss */
+
+#rss2
+{
+	top				: 0px;
+	left			: 0px;
+	position		: absolute;
+	padding-top: 5px;
+    border 			: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius	: 12px 12px 3px 3px;
+    box-shadow		:
+    	0px 2px 6px rgba(0, 0, 0, 0.5),
+    	inset 0 1px rgba(255, 255, 255, 0.3),
+    	inset 0 10px rgba(255, 255, 255, 0.2),
+    	inset 0 10px 20px rgba(255, 255, 255, 0.25),
+    	inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.rss2_item
+{
+	margin-left		: 80px;
+	margin-right	: 10px;
+	padding-top		: 5px;
+	border-bottom	: 1px dotted white;
+	overflow		: hidden;
+}
+
+.rss2_texte
+{
+	font-style: bold;
+	color			: #E1E6FA;
+	text-align 		: justify;
+	padding-left	: 6px;
+	padding-top		: 10px;
+}
+
+.rss2_titre
+{
+	padding-left	: 6px;
+}
+
+#rss2 img
+{
+	width			: 70px;
+	height			: 70px;
+	position		: absolute;
+	top				: 15px;
+	left			: 10px;
+}

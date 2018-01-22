@@ -1,0 +1,40 @@
+/* horloge */
+
+/* Police de caractère spécifique */
+@font-face {
+	font-family: 'horloge';
+	src: url('horloge.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#horloge {
+	position		: absolute;
+	overflow 		: hidden;
+	font-family		: 'horloge';
+	color			: #FFF;
+	text-align		: center;
+    border			: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius	: 12px 12px 3px 3px;
+    box-shadow		:
+    	0px 2px 6px rgba(0, 0, 0, 0.5),
+    	inset 0 1px rgba(255, 255, 255, 0.3),
+    	inset 0 10px rgba(255, 255, 255, 0.2),
+    	inset 0 10px 20px rgba(255, 255, 255, 0.25),
+    	inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+}
+
+#horloge_heure {
+	/*font-size		: 170px;*/
+	/*margin-top		: -0px;*/
+}
+
+#horloge_date {
+	/*font-size		: 35px;*/
+	margin-top		: -5px;
+}
+
+span.horloge_grey {
+	color			: #888;
+	font-size		: inherit;
+}

@@ -1,0 +1,17 @@
+/* xplanet_lune */
+
+#xplanet_lune
+{
+	top				: 0px;
+	left			: 500px;
+	position		: absolute;
+	overflow		: hidden;
+	background-color: transparent;
+	border-radius	: 67px;
+}
+
+#xplanet_lune img
+{
+	margin-left: -8px;
+	margin-top: -8px;
+}

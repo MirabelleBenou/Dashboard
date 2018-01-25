@@ -1,20 +1,20 @@
 {
 	"title": "Benou Dashboard",
-	"width": "1280px",
-	"height": "1024px",
+	"width": "1680px",
+	"height": "1050px",
 	"fond": "",
 	"modules": [
 	{
 		"name": "diaporama",
-		"width": "1920px",
-		"height": "1080px",
+		"width": "1680px",
+		"height": "1050px",
 		"top": "0px",
 		"left": "0px",
 		"update": 0,
 		"args":
 		{
 			"dossier": "./img/",
-			"delai": 60000
+			"delai": 120000
 		}
 	},
 	{
@@ -32,12 +32,12 @@
 	},
 	{
 		"name": "meteo",
-		"width": "1390px",
+		"width": "1150px",
 		"height": "100px",
 		"top": "35px",
 		"left": "520px",
 		"update": 3600
-	},	
+	},
 	{
 		"name": "rss",
 		"width": "500px",
@@ -56,7 +56,7 @@
 		"width": "500px",
 		"height": "450px",
 		"top": "180px",
-		"left": "1410px",
+		"left": "1170px",
 		"update": 300,
 		"args":
 		{
@@ -82,7 +82,7 @@
 		"width": "500px",
 		"height": "120px",
 		"top": "650px",
-		"left": "1410px",
+		"left": "1170px",
 		"update": 300,
 		"args":
 		{
@@ -95,7 +95,7 @@
 		"width": "180px",
 		"height": "110px",
 		"top": "180px",
-		"left": "1220px",
+		"left": "980px",
 		"update": 120
 	},
 	{
@@ -111,7 +111,7 @@
 		"width": "450px",
 		"height": "450px",
 		"top": "350px",
-		"left": "696px",
+		"left": "556px",
 		"update": 120
 	},
 	{
@@ -119,7 +119,7 @@
 		"width": "134px",
 		"height": "134px",
 		"top": "350px",
-		"left": "1126px",
+		"left": "986px",
 		"update": 600
 	},
 	{
@@ -127,7 +127,7 @@
 		"width": "220px",
 		"height": "175px",
 		"top": "625px",
-		"left": "1091px",
+		"left": "951px",
 		"update": 60,
 		"args":
 		{

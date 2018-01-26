@@ -42,12 +42,24 @@ body {
 	File manager
 -------------------------*/
 
+.banniere {
+   	margin: 20px;
+   	text-align:center;
+}
 
 .filemanager {
-	width: 95%;
-	max-width:1340px;
-	position: relative;
-	margin: 100px auto 50px;
+    border 			: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius	: 12px 12px 3px 3px;
+    box-shadow		:
+    	0px 2px 6px rgba(0, 0, 0, 0.5),
+    	inset 0 1px rgba(255, 255, 255, 0.3),
+    	inset 0 10px rgba(255, 255, 255, 0.2),
+    	inset 0 10px 20px rgba(255, 255, 255, 0.25),
+    	inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+
+	float: left;
+	margin: 20px;
+	margin-top: 5vh;
 }
 
 @media all and (max-width: 965px) {

@@ -1,4 +1,4 @@
-#stub1
+#deezer
 {
 	top				: 0px;
 	left			: 0px;
@@ -14,7 +14,7 @@
     	inset 0 -15px 30px rgba(0, 0, 0, 0.3);
 }
 
-.stub_item
+.deezer_item
 {
     /*margin-left     : 20px;*/
     text-align: center;
@@ -23,7 +23,7 @@
 }
 
 
-.stub_itemimg
+.deezer_itemimg
 {
     /*margin-left     : 10px;*/
     text-align: center;

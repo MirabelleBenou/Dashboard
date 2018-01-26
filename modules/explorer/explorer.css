@@ -55,6 +55,10 @@ body {
 	File manager
 -------------------------*/
 
+.banniere {
+   	margin: 20px;
+   	text-align:center;
+}
 
 .filemanager {
 	width: 95%;

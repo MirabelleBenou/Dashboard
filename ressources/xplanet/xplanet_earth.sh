@@ -4,6 +4,6 @@
 
 MOIS=$(date +%m)
 CARTE_MOIS="earth_$MOIS.jpg"
-unlink /var/www/html/tdb314/ressources/xplanet/img/earth.jpg
-ln -s /var/www/html/tdb314/ressources/xplanet/img/$CARTE_MOIS /var/www/html/tdb314/ressources/xplanet/img/earth.jpg
+unlink /var/www/html/Dashboard/ressources/xplanet/img/earth.jpg
+ln -s /var/www/html/Dashboard/ressources/xplanet/img/$CARTE_MOIS /var/www/html/Dashboard/ressources/xplanet/img/earth.jpg
 #echo "$(date): Carte de la Terre mise à jour !"

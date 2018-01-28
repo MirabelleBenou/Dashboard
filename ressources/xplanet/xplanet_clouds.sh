@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pat=/var/www/tdb314/ressources/xplanet/img/	# chemin des images
+pat=/var/www/html/Dashboard/ressources/xplanet/img/	# chemin des images
 tmp=$pat"tmp_clouds_2048.jpg"		# fichier image temporaire
 img=$pat"clouds_2048.jpg"			# fichier image final
 
@@ -28,5 +28,6 @@ if [ -s $tmp ]; then
   mv $tmp $img
   
   #...et on modifie ses droits d'accès
-  chown -R www-data:www-data $pat && chmod -R 775 $pat
+  sudo chown -R www-data:www-data $pat && sudo chmod -R 775 $pat
 fi
+

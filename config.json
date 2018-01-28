@@ -145,8 +145,8 @@
 		"args":
 		{
 			"ip_box": "192.168.44.254",
-			"ip_internet": "www.google.com",
-			"abo_Mbs": 10
+			"ip_internet": "www.yahoo.fr",
+			"abo_Mbs": 20
 		}
 	}
 	]

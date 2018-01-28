@@ -12,8 +12,8 @@
 
 # TERRE
 xplanet \
-	-conf /var/www/html/tdb314/ressources/xplanet/xplanet.conf \
-	-output /var/www/html/tdb314/ressources/xplanet/img/xplanet_earth.png \
+	-conf /var/www/html/Dashboard/ressources/xplanet/xplanet.conf \
+	-output /var/www/html/Dashboard/ressources/xplanet/img/xplanet_earth.png \
 	-wait 120 \
 	-body earth \
 	-latitude 35 \
@@ -22,8 +22,8 @@ xplanet \
 
 # LUNE
 xplanet \
-	-conf /var/www/html/tdb314/ressources/xplanet/xplanet.conf \
-	-output /var/www/html/tdb314/ressources/xplanet/img/xplanet_moon.png \
+	-conf /var/www/html/Dashboard/ressources/xplanet/xplanet.conf \
+	-output /var/www/html/Dashboard/ressources/xplanet/img/xplanet_moon.png \
 	-wait 600 \
 	-body moon \
 	-geometry 150x150 &
